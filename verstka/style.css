@@ -1,0 +1,80 @@
+@import url(fonts/stylesheet.css);
+
+* {
+	/*font-size : 16px;*/
+	line-height : 1.5;
+	}
+
+body {
+	/*background-color: cadetblue;*/
+	background-color : #2c3f5e;;
+	font-family      : Rubik, sans-serif;
+	color            : #c9c9b9;
+	}
+
+a {
+	text-decoration : none;
+	color           : inherit;
+	
+	}
+
+a:hover {
+	/*text-decoration: underline;*/
+	color      : yellow;
+	/*transform  : scale(1.2);*/
+	transition : all ease-in-out .3s;
+	}
+ul{
+	margin: 0 0 1em ;
+	}
+li:hover {
+	transform  : scale(1.2);
+	transition : all ease-in-out .3s;
+	/*margin: 1em 0;*/
+	}
+
+.wrapper {
+	max-width : 90em;
+	padding   : 0 .5em;
+	margin-inline: auto;
+	overflow: hidden;
+	}
+.menu_mobile{
+	display: flex;
+	align-items: center;
+	}
+
+.menu-burger{
+	/*display: inline-flex;*/
+	width : 50px;
+	margin-left : auto;
+	}
+.menu-burger img{
+	display: block;
+	width : 100%;
+	}
+
+/*уберем меню при мобилке*/
+.header{
+	/*width : 0;*/
+	}
+.header__logo {
+	/*display : inline-flex;*/
+	font-family : Ubuntu, sans-serif;
+	color       : yellow;
+	font-size   : 3em;
+	
+	}
+
+.wrapper > *,
+.main-page > * {
+	/*border: 1px crimson dashed;*/
+	}
+
+.main-page {
+	display : flex;
+	}
+
+.main {
+	flex : 1 1 auto;
+	}
